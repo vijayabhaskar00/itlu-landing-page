@@ -43,7 +43,7 @@ function ComingSoon() {
         </p>
 
         {/* Enhanced CTA Button */}
-       <buttons
+       <button
   onClick={() => window.open("https://menu.itlu.us", "_blank")}
   className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-full shadow-2xl hover:shadow-amber-500/50 transform hover:scale-105 transition-all duration-300"
 >
