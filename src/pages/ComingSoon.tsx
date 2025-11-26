@@ -12,7 +12,9 @@ function ComingSoon() {
         {/* Animated Icon Container */}
         <div className="mb-8 relative inline-block">
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20"></div>
+            <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20">
+              <img src='/assets/logo.png' />
+            </div>
           </div>
           <div className="relative flex items-center justify-center bg-white rounded-full p-8 shadow-2xl">
             <Clock className="w-20 h-20 text-transparent bg-gradient-to-br from-yellow-500 via-amber-500 to-orange-600 bg-clip-text" style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))' }} />
