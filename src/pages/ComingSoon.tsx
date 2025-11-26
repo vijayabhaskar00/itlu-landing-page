@@ -43,17 +43,35 @@ function ComingSoon() {
         </p>
 
         {/* Enhanced CTA Button */}
-        <button
-          onClick={() => window.open('https://menu.itlu.us', '_blank')}
-          className="group relative inline-flex items-center gap-3 px-12 py-6 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-2xl shadow-2xl hover:shadow-amber-500/50 transform hover:scale-105 transition-all duration-300 overflow-hidden"
-        >
-          <span className="absolute inset-0 bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
-          <span className="relative flex items-center gap-3 z-10">
-            <Utensils className="w-6 h-6" />
-            Visit Menu
-            <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
-          </span>
-        </button>
+       <button
+  onClick={() => window.open('https://menu.itlu.us', '_blank')}
+  className="
+    group relative inline-flex items-center gap-3 
+    px-10 py-5 
+    bg-gradient-to-r from-amber-500 to-orange-600 
+    text-white text-lg font-semibold 
+    rounded-xl shadow-lg 
+    hover:shadow-xl hover:shadow-orange-500/40
+    transition-all duration-300
+  "
+>
+  {/* Hover sheen */}
+  <span className="
+      pointer-events-none absolute inset-0 
+      bg-white/20 opacity-0 
+      group-hover:opacity-100 
+      transition-opacity duration-500 rounded-xl
+    ">
+  </span>
+
+  {/* Text + Icons */}
+  <span className="relative z-10 flex items-center gap-3">
+    <Utensils className="w-5 h-5" />
+    Visit Menu
+    <ArrowRight className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
+  </span>
+</button>
+
 
         {/* Secondary text */}
         <p className="mt-8 text-sm text-gray-600">
