@@ -1,4 +1,3 @@
-import React from 'react';
 import { Clock, ArrowRight, Sparkles, Utensils } from 'lucide-react';
 
 function ComingSoon() {
