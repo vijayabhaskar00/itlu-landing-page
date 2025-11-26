@@ -1,3 +1,4 @@
+import React from 'react';
 import { Clock, ArrowRight, Sparkles, Utensils } from 'lucide-react';
 
 function ComingSoon() {
@@ -12,9 +13,7 @@ function ComingSoon() {
         {/* Animated Icon Container */}
         <div className="mb-8 relative inline-block">
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20">
-              <img src='/assets/logo.png' />
-            </div>
+            <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20"></div>
           </div>
           <div className="relative flex items-center justify-center bg-white rounded-full p-8 shadow-2xl">
             <Clock className="w-20 h-20 text-transparent bg-gradient-to-br from-yellow-500 via-amber-500 to-orange-600 bg-clip-text" style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))' }} />
@@ -47,13 +46,10 @@ function ComingSoon() {
         {/* Enhanced CTA Button */}
         <button
           onClick={() => window.open('https://menu.itlu.us', '_blank')}
-          className="group relative inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-full shadow-2xl hover:shadow-amber-500/50 transform hover:scale-110 transition-all duration-300 overflow-hidden"
+          className="group relative inline-flex items-center gap-3 px-12 py-6 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-2xl shadow-2xl hover:shadow-amber-500/50 transform hover:scale-105 transition-all duration-300 overflow-hidden"
         >
           <span className="absolute inset-0 bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
-          <span className="absolute inset-0 opacity-0 group-hover:opacity-20">
-            <span className="absolute inset-0 bg-white animate-ping rounded-full"></span>
-          </span>
-          <span className="relative flex items-center gap-3">
+          <span className="relative flex items-center gap-3 z-10">
             <Utensils className="w-6 h-6" />
             Visit Menu
             <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
