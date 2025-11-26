@@ -14,7 +14,7 @@ function ComingSoon() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20"></div>
           </div>
-          <div className="relative flex items-center justify-center bg-white rounded-full shadow-2xl w-40 h-40">
+          <div className="relative flex items-center justify-center bg-[#ebe354] rounded-full shadow-2xl w-40 h-40">
             <img src='assets/img/logo.png' alt="Logo" className="w-28 h-28 object-contain z-10" />
             <Sparkles className="w-8 h-8 text-yellow-400 absolute -top-2 -right-2 animate-bounce z-20" />
             <Utensils className="w-6 h-6 text-orange-500 absolute -bottom-1 -left-1 animate-pulse z-20" />
