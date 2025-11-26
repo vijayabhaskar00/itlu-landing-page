@@ -4,13 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import MenuList from "./pages/MenuList";
 import Footer from "./components/Footer";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   return (
     <Router>
       <div className="w-full min-h-screen">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<ComingSoon />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/menu" element={<MenuList />} />
         </Routes>
         <Footer />
