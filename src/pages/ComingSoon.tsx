@@ -1,5 +1,4 @@
-import React from 'react';
-import { Clock, ArrowRight, Sparkles, Utensils } from 'lucide-react';
+import {  ArrowRight, Sparkles, Utensils } from 'lucide-react';
 
 function ComingSoon() {
   return (
@@ -15,10 +14,10 @@ function ComingSoon() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-ping opacity-20"></div>
           </div>
-          <div className="relative flex items-center justify-center bg-white rounded-full p-8 shadow-2xl">
-            <Clock className="w-20 h-20 text-transparent bg-gradient-to-br from-yellow-500 via-amber-500 to-orange-600 bg-clip-text" style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))' }} />
-            <Sparkles className="w-8 h-8 text-yellow-400 absolute -top-2 -right-2 animate-bounce" />
-            <Utensils className="w-6 h-6 text-orange-500 absolute -bottom-1 -left-1 animate-pulse" />
+          <div className="relative flex items-center justify-center bg-white rounded-full shadow-2xl w-40 h-40">
+            <img src='/assets/logo.png' alt="Logo" className="w-28 h-28 object-contain z-10" />
+            <Sparkles className="w-8 h-8 text-yellow-400 absolute -top-2 -right-2 animate-bounce z-20" />
+            <Utensils className="w-6 h-6 text-orange-500 absolute -bottom-1 -left-1 animate-pulse z-20" />
           </div>
         </div>
 
@@ -38,7 +37,7 @@ function ComingSoon() {
         <p className="text-2xl sm:text-3xl text-gray-800 mb-4 font-bold">
           Something <span className="text-transparent bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text">delicious</span> is cooking...
         </p>
-        
+
         <p className="text-lg sm:text-xl text-gray-700 mb-12 font-medium">
           Till then explore our <span className="text-orange-600 font-semibold">amazing menu</span>
         </p>
