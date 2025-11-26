@@ -45,7 +45,7 @@ function ComingSoon() {
         {/* Enhanced CTA Button */}
         <button
           onClick={() => window.open('https://menu.itlu.us', '_blank')}
-          className="group relative rounded-sm  inline-flex items-center gap-3 px-12 py-8 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-2xl shadow-2xl hover:shadow-amber-500/50 transform hover:scale-105 transition-all duration-300 overflow-hidden"
+          className="group relative rounded-3xl  inline-flex items-center gap-3 px-8 py-8 bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-600 text-white text-xl font-bold rounded-2xl shadow-2xl hover:shadow-amber-500/50 transform hover:scale-105 transition-all duration-300 overflow-hidden"
         >
           <span className="absolute inset-0 bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
           <span className="relative flex items-center gap-3 z-10">
