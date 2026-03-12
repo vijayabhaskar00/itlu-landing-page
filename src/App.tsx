@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div className="w-full min-h-screen">
         <Routes>
-          {/* <Route path="/" element={<ComingSoon />} /> */}
-          <Route path="/" element={<Home />} />
+           <Route path="/" element={<ComingSoon />} /> 
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/menu" element={<MenuList />} />
         </Routes>
         {/* <Footer /> */}
